@@ -1,0 +1,138 @@
+[run] trial=0 preprocess=raw pca_dim=None model=logistic
+[run] trial=0 preprocess=raw pca_dim=None model=linear_svm
+[run] trial=0 preprocess=raw pca_dim=None model=knn
+[run] trial=0 preprocess=standard pca_dim=None model=logistic
+[run] trial=0 preprocess=standard pca_dim=None model=linear_svm
+[run] trial=0 preprocess=standard pca_dim=None model=knn
+[run] trial=0 preprocess=minmax pca_dim=None model=logistic
+[run] trial=0 preprocess=minmax pca_dim=None model=linear_svm
+[run] trial=0 preprocess=minmax pca_dim=None model=knn
+[run] trial=0 preprocess=pca pca_dim=16 model=logistic
+[run] trial=0 preprocess=pca pca_dim=16 model=linear_svm
+[run] trial=0 preprocess=pca pca_dim=16 model=knn
+[run] trial=0 preprocess=pca pca_dim=32 model=logistic
+[run] trial=0 preprocess=pca pca_dim=32 model=linear_svm
+[run] trial=0 preprocess=pca pca_dim=32 model=knn
+[run] trial=0 preprocess=pca pca_dim=64 model=logistic
+[run] trial=0 preprocess=pca pca_dim=64 model=linear_svm
+[run] trial=0 preprocess=pca pca_dim=64 model=knn
+[run] trial=0 preprocess=pca pca_dim=128 model=logistic
+[run] trial=0 preprocess=pca pca_dim=128 model=linear_svm
+[run] trial=0 preprocess=pca pca_dim=128 model=knn
+[run] trial=0 preprocess=pca pca_dim=256 model=logistic
+[run] trial=0 preprocess=pca pca_dim=256 model=linear_svm
+[run] trial=0 preprocess=pca pca_dim=256 model=knn
+[run] trial=0 preprocess=pca pca_dim=512 model=logistic
+[run] trial=0 preprocess=pca pca_dim=512 model=linear_svm
+[run] trial=0 preprocess=pca pca_dim=512 model=knn
+[run] trial=0 preprocess=standard_pca pca_dim=16 model=logistic
+[run] trial=0 preprocess=standard_pca pca_dim=16 model=linear_svm
+[run] trial=0 preprocess=standard_pca pca_dim=16 model=knn
+[run] trial=0 preprocess=standard_pca pca_dim=32 model=logistic
+[run] trial=0 preprocess=standard_pca pca_dim=32 model=linear_svm
+[run] trial=0 preprocess=standard_pca pca_dim=32 model=knn
+[run] trial=0 preprocess=standard_pca pca_dim=64 model=logistic
+[run] trial=0 preprocess=standard_pca pca_dim=64 model=linear_svm
+/home/senzeyu2/miniconda3/envs/slot/lib/python3.9/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/senzeyu2/miniconda3/envs/slot/lib/python3.9/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/senzeyu2/miniconda3/envs/slot/lib/python3.9/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+[run] trial=0 preprocess=standard_pca pca_dim=64 model=knn
+[run] trial=0 preprocess=standard_pca pca_dim=128 model=logistic
+[run] trial=0 preprocess=standard_pca pca_dim=128 model=linear_svm
+/home/senzeyu2/miniconda3/envs/slot/lib/python3.9/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/senzeyu2/miniconda3/envs/slot/lib/python3.9/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/senzeyu2/miniconda3/envs/slot/lib/python3.9/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/senzeyu2/miniconda3/envs/slot/lib/python3.9/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/senzeyu2/miniconda3/envs/slot/lib/python3.9/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/senzeyu2/miniconda3/envs/slot/lib/python3.9/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/senzeyu2/miniconda3/envs/slot/lib/python3.9/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/senzeyu2/miniconda3/envs/slot/lib/python3.9/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+[run] trial=0 preprocess=standard_pca pca_dim=128 model=knn
+[run] trial=0 preprocess=standard_pca pca_dim=256 model=logistic
+[run] trial=0 preprocess=standard_pca pca_dim=256 model=linear_svm
+/home/senzeyu2/miniconda3/envs/slot/lib/python3.9/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+[run] trial=0 preprocess=standard_pca pca_dim=256 model=knn
+[run] trial=0 preprocess=standard_pca pca_dim=512 model=logistic
+[run] trial=0 preprocess=standard_pca pca_dim=512 model=linear_svm
+[run] trial=0 preprocess=standard_pca pca_dim=512 model=knn
+[run] trial=1 preprocess=raw pca_dim=None model=logistic
+[run] trial=1 preprocess=raw pca_dim=None model=linear_svm
+[run] trial=1 preprocess=raw pca_dim=None model=knn
+[run] trial=1 preprocess=standard pca_dim=None model=logistic
+[run] trial=1 preprocess=standard pca_dim=None model=linear_svm
+[run] trial=1 preprocess=standard pca_dim=None model=knn
+[run] trial=1 preprocess=minmax pca_dim=None model=logistic
+[run] trial=1 preprocess=minmax pca_dim=None model=linear_svm
+[run] trial=1 preprocess=minmax pca_dim=None model=knn
+[run] trial=1 preprocess=pca pca_dim=16 model=logistic
+[run] trial=1 preprocess=pca pca_dim=16 model=linear_svm
+[run] trial=1 preprocess=pca pca_dim=16 model=knn
+[run] trial=1 preprocess=pca pca_dim=32 model=logistic
+[run] trial=1 preprocess=pca pca_dim=32 model=linear_svm
+[run] trial=1 preprocess=pca pca_dim=32 model=knn
+[run] trial=1 preprocess=pca pca_dim=64 model=logistic
+[run] trial=1 preprocess=pca pca_dim=64 model=linear_svm
+[run] trial=1 preprocess=pca pca_dim=64 model=knn
+[run] trial=1 preprocess=pca pca_dim=128 model=logistic
+[run] trial=1 preprocess=pca pca_dim=128 model=linear_svm
+[run] trial=1 preprocess=pca pca_dim=128 model=knn
+[run] trial=1 preprocess=pca pca_dim=256 model=logistic
+[run] trial=1 preprocess=pca pca_dim=256 model=linear_svm
+[run] trial=1 preprocess=pca pca_dim=256 model=knn
+[run] trial=1 preprocess=pca pca_dim=512 model=logistic
+[run] trial=1 preprocess=pca pca_dim=512 model=linear_svm
+[run] trial=1 preprocess=pca pca_dim=512 model=knn
+[run] trial=1 preprocess=standard_pca pca_dim=16 model=logistic
+[run] trial=1 preprocess=standard_pca pca_dim=16 model=linear_svm
+[run] trial=1 preprocess=standard_pca pca_dim=16 model=knn
+[run] trial=1 preprocess=standard_pca pca_dim=32 model=logistic
+[run] trial=1 preprocess=standard_pca pca_dim=32 model=linear_svm
+[run] trial=1 preprocess=standard_pca pca_dim=32 model=knn
+[run] trial=1 preprocess=standard_pca pca_dim=64 model=logistic
+[run] trial=1 preprocess=standard_pca pca_dim=64 model=linear_svm
+/home/senzeyu2/miniconda3/envs/slot/lib/python3.9/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+[run] trial=1 preprocess=standard_pca pca_dim=64 model=knn
+[run] trial=1 preprocess=standard_pca pca_dim=128 model=logistic
+[run] trial=1 preprocess=standard_pca pca_dim=128 model=linear_svm
+/home/senzeyu2/miniconda3/envs/slot/lib/python3.9/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/senzeyu2/miniconda3/envs/slot/lib/python3.9/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/senzeyu2/miniconda3/envs/slot/lib/python3.9/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/senzeyu2/miniconda3/envs/slot/lib/python3.9/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/senzeyu2/miniconda3/envs/slot/lib/python3.9/site-packages/sklearn/svm/_base.py:1249: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+[run] trial=1 preprocess=standard_pca pca_dim=128 model=knn
+[run] trial=1 preprocess=standard_pca pca_dim=256 model=logistic
+[run] trial=1 preprocess=standard_pca pca_dim=256 model=linear_svm
+[run] trial=1 preprocess=standard_pca pca_dim=256 model=knn
+[run] trial=1 preprocess=standard_pca pca_dim=512 model=logistic
+[run] trial=1 preprocess=standard_pca pca_dim=512 model=linear_svm
+[run] trial=1 preprocess=standard_pca pca_dim=512 model=knn
+[run] Saved metrics to: outputs/course_digits_full/metrics.csv
+[run] Saved CV records to: outputs/course_digits_full/cv_results.csv
+Traceback (most recent call last):
+  File "/home/senzeyu2/code/digits_processed/main.py", line 63, in <module>
+    main()
+  File "/home/senzeyu2/code/digits_processed/main.py", line 57, in main
+    report_command(cfg)
+  File "/home/senzeyu2/code/digits_processed/src/reporting.py", line 228, in report_command
+    _save_accuracy_vs_pca(clean_df, accuracy_vs_pca_path)
+  File "/home/senzeyu2/code/digits_processed/src/reporting.py", line 36, in _save_accuracy_vs_pca
+    merged.groupby(
+NameError: name 'merged' is not defined

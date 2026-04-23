@@ -1,0 +1,35 @@
+{
+  "mat_path": "data/digits4000.mat",
+  "num_samples": 4000,
+  "num_features": 784,
+  "num_classes": 10,
+  "class_names": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "num_trials": 2,
+  "feature_key": "digits_vec",
+  "label_key": "digits_labels",
+  "train_key": "trainset",
+  "test_key": "testset",
+  "train_sizes": [
+    2000,
+    2000
+  ],
+  "test_sizes": [
+    2000,
+    2000
+  ],
+  "pixel_min": 0.0,
+  "pixel_max": 1.0,
+  "pixel_mean": 0.13233579695224762,
+  "pixel_std": 0.3100181818008423
+}

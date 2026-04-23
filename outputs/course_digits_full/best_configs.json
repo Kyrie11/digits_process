@@ -1,0 +1,55 @@
+{
+  "best_clean_overall": {
+    "config_key": "pca|knn|32",
+    "preprocess": "pca",
+    "model": "knn",
+    "pca_dim": 32.0,
+    "mean_test_accuracy": 0.9325,
+    "std_test_accuracy": 0.005656854249492385,
+    "mean_cv_accuracy": 0.932,
+    "feature_dim_after_transform": 32
+  },
+  "best_robust_overall": {
+    "config_key": "pca|knn|32",
+    "preprocess": "pca",
+    "model": "knn",
+    "pca_dim": 32.0,
+    "noise_sigma": 0.4,
+    "mean_test_accuracy": 0.9259999999999999,
+    "std_test_accuracy": 0.002121320343559605,
+    "clean_mean_accuracy": 0.9325,
+    "robustness_drop": 0.006500000000000061
+  },
+  "best_clean_per_model": [
+    {
+      "config_key": "pca|knn|32",
+      "preprocess": "pca",
+      "model": "knn",
+      "pca_dim": 32.0,
+      "mean_test_accuracy": 0.9325,
+      "std_test_accuracy": 0.005656854249492385,
+      "mean_cv_accuracy": 0.932,
+      "feature_dim_after_transform": 32
+    },
+    {
+      "config_key": "minmax|logistic|none",
+      "preprocess": "minmax",
+      "model": "logistic",
+      "pca_dim": NaN,
+      "mean_test_accuracy": 0.88975,
+      "std_test_accuracy": 0.006717514421272207,
+      "mean_cv_accuracy": 0.8907499999999999,
+      "feature_dim_after_transform": 784
+    },
+    {
+      "config_key": "minmax|linear_svm|none",
+      "preprocess": "minmax",
+      "model": "linear_svm",
+      "pca_dim": NaN,
+      "mean_test_accuracy": 0.8867499999999999,
+      "std_test_accuracy": 0.0045961940777125634,
+      "mean_cv_accuracy": 0.8867499999999999,
+      "feature_dim_after_transform": 784
+    }
+  ]
+}

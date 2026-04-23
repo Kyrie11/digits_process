@@ -1,0 +1,4 @@
+{
+  "device": "cuda",
+  "num_trials": 2
+}

@@ -1,0 +1,51 @@
+\begin{tabular}{lllrrrrrr}
+\toprule
+config_key & preprocess & model & pca_dim & noise_sigma & mean_test_accuracy & std_test_accuracy & clean_mean_accuracy & robustness_drop \\
+\midrule
+pca|knn|32 & pca & knn & 32.000000 & 0.400000 & 0.926000 & 0.002121 & 0.932500 & 0.006500 \\
+pca|knn|64 & pca & knn & 64.000000 & 0.400000 & 0.918750 & 0.015203 & 0.929750 & 0.011000 \\
+pca|knn|128 & pca & knn & 128.000000 & 0.400000 & 0.914750 & 0.014496 & 0.923750 & 0.009000 \\
+pca|knn|512 & pca & knn & 512.000000 & 0.400000 & 0.912000 & 0.007778 & 0.922000 & 0.010000 \\
+raw|knn|none & raw & knn & NaN & 0.400000 & 0.911750 & 0.008132 & 0.922000 & 0.010250 \\
+pca|knn|256 & pca & knn & 256.000000 & 0.400000 & 0.911500 & 0.007778 & 0.923500 & 0.012000 \\
+pca|knn|16 & pca & knn & 16.000000 & 0.400000 & 0.867750 & 0.004596 & 0.923250 & 0.055500 \\
+pca|logistic|64 & pca & logistic & 64.000000 & 0.400000 & 0.795000 & 0.006364 & 0.889500 & 0.094500 \\
+pca|logistic|128 & pca & logistic & 128.000000 & 0.400000 & 0.789000 & 0.002121 & 0.887250 & 0.098250 \\
+pca|logistic|256 & pca & logistic & 256.000000 & 0.400000 & 0.786000 & 0.001414 & 0.886000 & 0.100000 \\
+pca|linear_svm|256 & pca & linear_svm & 256.000000 & 0.400000 & 0.785750 & 0.014496 & 0.875750 & 0.090000 \\
+raw|linear_svm|none & raw & linear_svm & NaN & 0.400000 & 0.785750 & 0.006010 & 0.886500 & 0.100750 \\
+pca|logistic|512 & pca & logistic & 512.000000 & 0.400000 & 0.784750 & 0.001768 & 0.886500 & 0.101750 \\
+pca|logistic|32 & pca & logistic & 32.000000 & 0.400000 & 0.780250 & 0.006718 & 0.877000 & 0.096750 \\
+pca|linear_svm|512 & pca & linear_svm & 512.000000 & 0.400000 & 0.771750 & 0.010960 & 0.875750 & 0.104000 \\
+pca|linear_svm|32 & pca & linear_svm & 32.000000 & 0.400000 & 0.770750 & 0.016617 & 0.868750 & 0.098000 \\
+raw|logistic|none & raw & logistic & NaN & 0.400000 & 0.755000 & 0.016263 & 0.889500 & 0.134500 \\
+pca|linear_svm|128 & pca & linear_svm & 128.000000 & 0.400000 & 0.749500 & 0.082731 & 0.874500 & 0.125000 \\
+pca|linear_svm|64 & pca & linear_svm & 64.000000 & 0.400000 & 0.747250 & 0.018738 & 0.881000 & 0.133750 \\
+minmax|linear_svm|none & minmax & linear_svm & NaN & 0.400000 & 0.743000 & 0.020506 & 0.886750 & 0.143750 \\
+pca|logistic|16 & pca & logistic & 16.000000 & 0.400000 & 0.741750 & 0.007425 & 0.841250 & 0.099500 \\
+minmax|logistic|none & minmax & logistic & NaN & 0.400000 & 0.716750 & 0.049144 & 0.889750 & 0.173000 \\
+pca|linear_svm|16 & pca & linear_svm & 16.000000 & 0.400000 & 0.688000 & 0.001414 & 0.827500 & 0.139500 \\
+minmax|knn|none & minmax & knn & NaN & 0.400000 & 0.676750 & 0.317844 & 0.921500 & 0.244750 \\
+standard_pca|logistic|32 & standard_pca & logistic & 32.000000 & 0.400000 & 0.380000 & 0.013435 & 0.857500 & 0.477500 \\
+standard_pca|logistic|64 & standard_pca & logistic & 64.000000 & 0.400000 & 0.365000 & 0.012728 & 0.874750 & 0.509750 \\
+standard_pca|logistic|256 & standard_pca & logistic & 256.000000 & 0.400000 & 0.356750 & 0.038537 & 0.880250 & 0.523500 \\
+standard_pca|logistic|512 & standard_pca & logistic & 512.000000 & 0.400000 & 0.343000 & 0.055861 & 0.879500 & 0.536500 \\
+standard_pca|logistic|128 & standard_pca & logistic & 128.000000 & 0.400000 & 0.339250 & 0.029345 & 0.876500 & 0.537250 \\
+standard|logistic|none & standard & logistic & NaN & 0.400000 & 0.332250 & 0.035709 & 0.883250 & 0.551000 \\
+standard_pca|knn|16 & standard_pca & knn & 16.000000 & 0.400000 & 0.296250 & 0.047023 & 0.883750 & 0.587500 \\
+standard_pca|logistic|16 & standard_pca & logistic & 16.000000 & 0.400000 & 0.288000 & 0.077075 & 0.837000 & 0.549000 \\
+standard_pca|linear_svm|16 & standard_pca & linear_svm & 16.000000 & 0.400000 & 0.262500 & 0.074246 & 0.824000 & 0.561500 \\
+standard_pca|linear_svm|32 & standard_pca & linear_svm & 32.000000 & 0.400000 & 0.237000 & 0.030406 & 0.858250 & 0.621250 \\
+standard_pca|linear_svm|64 & standard_pca & linear_svm & 64.000000 & 0.400000 & 0.213000 & 0.032527 & 0.874250 & 0.661250 \\
+standard_pca|knn|32 & standard_pca & knn & 32.000000 & 0.400000 & 0.210750 & 0.039952 & 0.892500 & 0.681750 \\
+standard_pca|knn|128 & standard_pca & knn & 128.000000 & 0.400000 & 0.207750 & 0.056215 & 0.886500 & 0.678750 \\
+standard_pca|knn|64 & standard_pca & knn & 64.000000 & 0.400000 & 0.202250 & 0.017324 & 0.895500 & 0.693250 \\
+standard_pca|knn|512 & standard_pca & knn & 512.000000 & 0.400000 & 0.197000 & 0.013435 & 0.868250 & 0.671250 \\
+standard|knn|none & standard & knn & NaN & 0.400000 & 0.195750 & 0.013789 & 0.866750 & 0.671000 \\
+standard_pca|knn|256 & standard_pca & knn & 256.000000 & 0.400000 & 0.175250 & 0.034295 & 0.872000 & 0.696750 \\
+standard_pca|linear_svm|512 & standard_pca & linear_svm & 512.000000 & 0.400000 & 0.164250 & 0.008132 & 0.852500 & 0.688250 \\
+standard_pca|linear_svm|128 & standard_pca & linear_svm & 128.000000 & 0.400000 & 0.163250 & 0.022981 & 0.866250 & 0.703000 \\
+standard|linear_svm|none & standard & linear_svm & NaN & 0.400000 & 0.162000 & 0.005657 & 0.850500 & 0.688500 \\
+standard_pca|linear_svm|256 & standard_pca & linear_svm & 256.000000 & 0.400000 & 0.160000 & 0.012021 & 0.861250 & 0.701250 \\
+\bottomrule
+\end{tabular}

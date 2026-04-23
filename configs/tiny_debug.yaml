@@ -1,0 +1,40 @@
+experiment_name: tiny_debug
+
+data:
+  mat_path: data/synthetic_digits4000.mat
+  auto_normalize_01: true
+
+experiment:
+  output_dir: outputs/tiny_debug
+  seed: 7
+  device: auto
+  cv_folds: 3
+  generate_report_after_run: false
+  trial_indices: [0]
+
+preprocessing:
+  methods:
+    - raw
+    - standard_pca
+  pca_dimensions: [16]
+
+evaluation:
+  noise_levels: [0.0, 0.2]
+
+models:
+  logistic:
+    grid:
+      C: [1.0]
+    train:
+      epochs: 8
+      lr: 0.05
+      batch_size: 64
+
+  knn:
+    grid:
+      n_neighbors: [3]
+      weights: [distance]
+
+report:
+  top_k_cases: 4
+  highest_noise_for_robustness: 0.2
